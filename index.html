@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Costa Silva</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .card {
+            text-align: center;
+        }
+        .card img {
+            height: 600px;
+            max-height: 600px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+    <nav> <!-- MENU-->
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="luminara.html">Luminara</a></li>
+            <li><a href="portonegro.html">Porto Negro</a></li>
+            <li><a href="trovania.html">Trovania</a></li>
+            <li><a href="valoria.html">Valoria</a></li>
+            <li><a href="Veridia.html">Veridia</a></li>
+        </ul>
+    </nav>
+
+    <center>
+        <div class="card"> <!-- CARD INICIAL-->
+        <h1>Eldoria - RPG</h1>
+        <br>
+        <p>O mundo é conhecido como Eldoria, um reino medieval de vastas florestas, montanhas imponentes e cidades prósperas. A maior e mais próspera de todas as cidades é Luminara, conhecida por seus mercados vibrantes e arquitetura deslumbrante.</p>
+        <br>
+    </div>
+
+    <div>
+        <img src="Eldoria.jpg" width="85%" id="image"/>
+    </div>
+    </center>
+
+<script>
+    document.getElementById('image').addEventListener('click', function() {
+        if (this.src.endsWith('Eldoria.jpg')) {
+            this.src = 'Eldoria_Grid.jpg';
+        } else {
+            this.src = 'Eldoria.jpg';
+        }
+    });
+</script>
+
+</header>
+</body>
+</html>
