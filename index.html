@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Costa Silva</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Engine/style.css">
     <style>
         .card {
             text-align: center;
@@ -21,11 +21,11 @@
     <nav> <!-- MENU-->
         <ul>
             <li><a href="index.html">Início</a></li>
-            <li><a href="luminara.html">Luminara</a></li>
-            <li><a href="portonegro.html">Porto Negro</a></li>
-            <li><a href="trovania.html">Trovania</a></li>
-            <li><a href="valoria.html">Valoria</a></li>
-            <li><a href="Veridia.html">Veridia</a></li>
+            <li><a href="Paginas/luminara.html">Luminara</a></li>
+            <li><a href="Paginas/portonegro.html">Porto Negro</a></li>
+            <li><a href="Paginas/trovania.html">Trovania</a></li>
+            <li><a href="Paginas/valoria.html">Valoria</a></li>
+            <li><a href="Paginas/veridia.html">Veridia</a></li>
         </ul>
     </nav>
 
@@ -38,16 +38,16 @@
     </div>
 
     <div>
-        <img src="Eldoria.jpg" width="85%" id="image"/>
+        <img src="imagens/Eldoria.jpg" width="85%" id="image"/>
     </div>
     </center>
 
 <script>
     document.getElementById('image').addEventListener('click', function() {
         if (this.src.endsWith('Eldoria.jpg')) {
-            this.src = 'Eldoria_Grid.jpg';
+            this.src = 'imagens/Eldoria_Grid.jpg';
         } else {
-            this.src = 'Eldoria.jpg';
+            this.src = 'imagens/Eldoria.jpg';
         }
     });
 </script>
