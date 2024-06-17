@@ -37,3 +37,6 @@ class Popup {
   const popup8 = new Popup('.popup8', '#popup8');
   const popup9 = new Popup('.popup9', '#popup9');
   const popup10 = new Popup('.popup10', '#popup10');
+  const popup11 = new Popup('.popup11', '#popup11');
+  const popup12 = new Popup('.popup12', '#popup12');
+  const popup13 = new Popup('.popup13', '#popup13');
